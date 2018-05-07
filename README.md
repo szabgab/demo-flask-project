@@ -2,6 +2,8 @@
 
 To be used for the Jenkins demo.
 
+http://demo.code-maven.com:9090/
+
 
 ## Development server
 
