@@ -8,6 +8,8 @@ echo "GIT_AUTHOR_EMAIL $GIT_AUTHOR_EMAIL"
 echo "GIT_COMMITTER_NAME $GIT_COMMITTER_NAME"
 echo "GIT_COMMITTER_EMAIL $GIT_COMMITTER_EMAIL"
 
+echo "GIT_COMMIT $GIT_COMMIT" > release.txt
+
 
 cd /home/gabor/work/demo-flask-project;
 /usr/bin/git pull
