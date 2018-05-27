@@ -10,6 +10,9 @@ echo "GIT_COMMITTER_EMAIL $GIT_COMMITTER_EMAIL"
 
 echo "GIT_COMMIT $GIT_COMMIT" > release.txt
 
+DATE = `date '+%Y-%m-%d--%H-%M-%S'`
+tar czf release-$DATE-$GIT_COMMIT.gz demo.py templates/
+
 
 cd /home/gabor/work/demo-flask-project;
 /usr/bin/git pull
