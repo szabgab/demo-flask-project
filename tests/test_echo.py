@@ -21,10 +21,14 @@ class TestEcho(object):
         assert b'<form action="/echo" method="POST">' in rv.data
         assert b'You said: Foo Bar' in rv.data
 
-#    def test_demo(self):
-#        assert False
+    def test_demo(self):
+        assert False
 
     def test_more(self):
         assert True
+
+    def test_one_more(self):
+        assert True
+
 
 # vim: expandtab
