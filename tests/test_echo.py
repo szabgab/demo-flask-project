@@ -24,4 +24,7 @@ class TestEcho(object):
 #    def test_demo(self):
 #        assert False
 
+    def test_more(self):
+        assert True
+
 # vim: expandtab
