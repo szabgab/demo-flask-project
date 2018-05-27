@@ -1,4 +1,4 @@
-#!/bin/bash -xs
+#!/bin/bash -xe
 echo "Deploy!"
 echo "GIT_COMMIT $GIT_COMMIT"
 echo "GIT_BRANCH $GIT_BRANCH"
